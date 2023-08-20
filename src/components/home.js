@@ -5,6 +5,8 @@ import MuiAlert from '@mui/material/Alert';
 import { useState, forwardRef } from 'react';
 import Snackbar from '@mui/material/Snackbar';
 import TextField from '@mui/material/TextField';
+import Typography from '@mui/material/Typography';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const Alert = forwardRef(function Alert(props, ref) {
     return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
@@ -32,7 +34,11 @@ function Home() {
     }
 
     const clickHandler = (e) => {
-        setResult(result.concat(e.target.value));
+        try {
+            setResult(result.concat(e.target.value));
+        } catch (error) {
+            setResult('');
+        }
     }
 
     const showDisplay = () => {
@@ -42,6 +48,24 @@ function Home() {
             handleClick();
         }
     }
+
+    const theme = createTheme({
+        typography: {
+            body1: {
+                fontFamily: 'Poppins',
+                fontSize: '1.3rem',
+                '@media (max-width: 950px)': {
+                    fontSize: '1rem',
+                },
+                '@media (max-width: 550px)': {
+                    fontSize: '0.9rem',
+                },
+                '@media (max-width: 450px)': {
+                    fontSize: '0.8rem',
+                },
+            }
+        },
+    });
 
     return (
         <>
@@ -54,15 +78,24 @@ function Home() {
                     <div className='home-2'>
                         <div className='home-2-1'>
                             <div className='home-2-1-1'>
-                                <TextField
-                                    fullWidth
-                                    type='text'
-                                    value={result}
-                                    id='home-cal-dis'
-                                    InputProps={{
-                                        readOnly: true,
-                                    }}
-                                />
+                                <ThemeProvider theme={theme}>
+                                    <Typography variant='body1'>
+                                        <TextField
+                                            fullWidth
+                                            type='text'
+                                            value={result}
+                                            label='Display'
+                                            variant="filled"
+                                            id='home-cal-dis'
+                                            InputProps={{
+                                                readOnly: true,
+                                            }}
+                                            InputLabelProps={{
+                                                shrink: true,
+                                            }}
+                                        />
+                                    </Typography>
+                                </ThemeProvider>
                             </div>
 
                             <Button
