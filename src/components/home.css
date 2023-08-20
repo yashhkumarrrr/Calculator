@@ -1,0 +1,98 @@
+.home-body {
+    height: 100%;
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Poppins';
+    flex-direction: column;
+    background-color: rgb(240, 240, 255);
+}
+
+.home-section {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 600px;
+    flex-direction: column;
+}
+
+.home-1 {
+    flex: 1;
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-2-1 {
+    display: flex;
+}
+
+.home-2-1-1 {
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    height: 13.9vh;
+    border-radius: 0px;
+}
+
+#home-cal-dis {
+    margin: 0;
+    padding: 0;
+    height: 13.9vh;
+    font-size: 2.5rem;
+    border-radius: 0px;
+    background-color: rgb(230, 230, 255);
+}
+
+#home-cal-btn {
+    width: 25%;
+    height: 14vh;
+    font-size: 2rem;
+    border-radius: 0px;
+    font-family: 'Poppins';
+}
+
+@media (max-width: 500px) {
+    .home-1 {
+        font-size: 2.7rem;
+    }
+
+    .home-2-1-1 {
+        height: 12vh;
+    }
+
+    #home-cal-dis {
+        height: 12vh;
+        font-size: 1.75rem;
+    }
+
+    #home-cal-btn {
+        height: 12vh;
+        font-size: 1.5rem;
+    }
+}
+
+/* Footer */
+
+.footer-body {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-link {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .footer-body {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer-body {
+        font-size: 0.8rem;
+    }
+}
