@@ -46,7 +46,23 @@
     background-color: rgb(230, 230, 255);
 }
 
-#home-cal-btn {
+#home-cal-btn-1,
+#home-cal-btn-2,
+#home-cal-btn-3,
+#home-cal-btn-4,
+#home-cal-btn-5,
+#home-cal-btn-6,
+#home-cal-btn-7,
+#home-cal-btn-8,
+#home-cal-btn-9,
+#home-cal-btn-10,
+#home-cal-btn-11,
+#home-cal-btn-12,
+#home-cal-btn-13,
+#home-cal-btn-14,
+#home-cal-btn-15,
+#home-cal-btn-16,
+#home-cal-btn-17 {
     width: 25%;
     height: 14vh;
     font-size: 2rem;
@@ -68,7 +84,23 @@
         font-size: 1.75rem;
     }
 
-    #home-cal-btn {
+    #home-cal-btn-1,
+    #home-cal-btn-2,
+    #home-cal-btn-3,
+    #home-cal-btn-4,
+    #home-cal-btn-5,
+    #home-cal-btn-6,
+    #home-cal-btn-7,
+    #home-cal-btn-8,
+    #home-cal-btn-9,
+    #home-cal-btn-10,
+    #home-cal-btn-11,
+    #home-cal-btn-12,
+    #home-cal-btn-13,
+    #home-cal-btn-14,
+    #home-cal-btn-15,
+    #home-cal-btn-16,
+    #home-cal-btn-17 {
         height: 12vh;
         font-size: 1.5rem;
     }

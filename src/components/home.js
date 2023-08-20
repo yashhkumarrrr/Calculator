@@ -100,7 +100,7 @@ function Home() {
 
                             <Button
                                 color='error'
-                                id='home-cal-btn'
+                                id='home-cal-btn-1'
                                 variant='contained'
                                 onClick={clearDisplay}
                             >
@@ -111,7 +111,7 @@ function Home() {
                         <div>
                             <Button
                                 value='7'
-                                id='home-cal-btn'
+                                id='home-cal-btn-2'
                                 variant='contained'
                                 color='primary'
                                 onClick={clickHandler}
@@ -120,7 +120,7 @@ function Home() {
                             </Button>
                             <Button
                                 value='8'
-                                id='home-cal-btn'
+                                id='home-cal-btn-3'
                                 variant='contained'
                                 color='primary'
                                 onClick={clickHandler}
@@ -129,7 +129,7 @@ function Home() {
                             </Button>
                             <Button
                                 value='9'
-                                id='home-cal-btn'
+                                id='home-cal-btn-4'
                                 variant='contained'
                                 color='primary'
                                 onClick={clickHandler}
@@ -138,7 +138,7 @@ function Home() {
                             </Button>
                             <Button
                                 value='/'
-                                id='home-cal-btn'
+                                id='home-cal-btn-5'
                                 variant='contained'
                                 color='secondary'
                                 onClick={clickHandler}
@@ -150,7 +150,7 @@ function Home() {
                         <div>
                             <Button
                                 value='4'
-                                id='home-cal-btn'
+                                id='home-cal-btn-6'
                                 variant='contained'
                                 color='primary'
                                 onClick={clickHandler}
@@ -159,7 +159,7 @@ function Home() {
                             </Button>
                             <Button
                                 value='5'
-                                id='home-cal-btn'
+                                id='home-cal-btn-7'
                                 variant='contained'
                                 color='primary'
                                 onClick={clickHandler}
@@ -168,7 +168,7 @@ function Home() {
                             </Button>
                             <Button
                                 value='6'
-                                id='home-cal-btn'
+                                id='home-cal-btn-8'
                                 variant='contained'
                                 color='primary'
                                 onClick={clickHandler}
@@ -177,7 +177,7 @@ function Home() {
                             </Button>
                             <Button
                                 value='*'
-                                id='home-cal-btn'
+                                id='home-cal-btn-9'
                                 variant='contained'
                                 color='secondary'
                                 onClick={clickHandler}
@@ -189,7 +189,7 @@ function Home() {
                         <div>
                             <Button
                                 value='1'
-                                id='home-cal-btn'
+                                id='home-cal-btn-10'
                                 variant='contained'
                                 color='primary'
                                 onClick={clickHandler}
@@ -198,7 +198,7 @@ function Home() {
                             </Button>
                             <Button
                                 value='2'
-                                id='home-cal-btn'
+                                id='home-cal-btn-11'
                                 variant='contained'
                                 color='primary'
                                 onClick={clickHandler}
@@ -207,7 +207,7 @@ function Home() {
                             </Button>
                             <Button
                                 value='3'
-                                id='home-cal-btn'
+                                id='home-cal-btn-12'
                                 variant='contained'
                                 color='primary'
                                 onClick={clickHandler}
@@ -216,7 +216,7 @@ function Home() {
                             </Button>
                             <Button
                                 value='-'
-                                id='home-cal-btn'
+                                id='home-cal-btn-13'
                                 variant='contained'
                                 color='secondary'
                                 onClick={clickHandler}
@@ -228,7 +228,7 @@ function Home() {
                         <div>
                             <Button
                                 value='0'
-                                id='home-cal-btn'
+                                id='home-cal-btn-14'
                                 variant='contained'
                                 color='primary'
                                 onClick={clickHandler}
@@ -237,7 +237,7 @@ function Home() {
                             </Button>
                             <Button
                                 value='.'
-                                id='home-cal-btn'
+                                id='home-cal-btn-15'
                                 variant='contained'
                                 color='secondary'
                                 onClick={clickHandler}
@@ -245,7 +245,7 @@ function Home() {
                                 .
                             </Button>
                             <Button
-                                id='home-cal-btn'
+                                id='home-cal-btn-16'
                                 variant='contained'
                                 color='success'
                                 onClick={showDisplay}
@@ -254,7 +254,7 @@ function Home() {
                             </Button>
                             <Button
                                 value='+'
-                                id='home-cal-btn'
+                                id='home-cal-btn-17'
                                 variant='contained'
                                 color='secondary'
                                 onClick={clickHandler}
