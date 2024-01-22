@@ -57,10 +57,10 @@ function Home() {
                 '@media (max-width: 950px)': {
                     fontSize: '1rem',
                 },
-                '@media (max-width: 550px)': {
+                '@media (max-width: 600px)': {
                     fontSize: '0.9rem',
                 },
-                '@media (max-width: 450px)': {
+                '@media (max-width: 400px)': {
                     fontSize: '0.8rem',
                 },
             }
@@ -84,6 +84,7 @@ function Home() {
                                             fullWidth
                                             type='text'
                                             value={result}
+                                            focused={true}
                                             label='Display'
                                             variant="filled"
                                             id='home-cal-dis'
